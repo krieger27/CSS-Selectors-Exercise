@@ -1,3 +1,5 @@
+/*--Header & Nav--*/
+
 header {
     border: 1px solid darkturquoise;
 }
@@ -8,17 +10,19 @@ nav li{
     padding: 8px 75px;
 }
 
+/*--Links--*/
 .disabled{
     color:grey;
 }
 
-#Sept{
+a .disabled{
     color:purple;
 }
 .active{
     color:yellow;
 }
 
+/*--Body Section--*/
 #red{
     color:red;
 }
@@ -40,6 +44,7 @@ nav li{
     border-radius: 30px;
 }
 
+/*--Footer--*/
 .promo {
     font-weight: bold;
     color: gold;
